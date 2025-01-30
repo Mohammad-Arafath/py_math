@@ -14,7 +14,7 @@ def math_utils():
     return MathUtils()
 
 def test_add(math_utils):
-    assert math_utils.add(3, 3) == 5
+    assert math_utils.add(3, 3) == 6
     assert math_utils.add(-3, -2) == -5
     assert math_utils.add(0, 5) == 5
     assert math_utils.add(5, -2) == 3
